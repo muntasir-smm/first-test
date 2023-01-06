@@ -1,5 +1,7 @@
 *{
     margin: 0px;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Open Sans', sans-serif;
 }
 
 .banner{
@@ -17,8 +19,20 @@
     margin: 20px;
 }
 
+
 /* Donate Now Button  */
 .donate{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border: 0px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #ff5959;
+    margin: 20px;
+}
+.subscribe{
     color: #ffffff;
     font-weight: 700;
     font-size: 20px;
@@ -30,34 +44,63 @@
 }
 .donate-today{
     text-align: center;
+    margin: 50px;
 }
 .amount{
     display: flex;
     gap: 20px;
+    justify-content: center;
+    margin: 70px;
 }
-.amount .quick-amount{
-    color: #ffffff;
+.quick-amount{
+    color: #6f6f6f;
     font-weight: 700;
     font-size: 20px;
-    height: 64px;
+    height: 50px;
     border: 0px;
     padding: 18px 35px;
     border-radius: 5px;
-    background: lightgrey;
-    text-align: center;   
+    background: #f9f9f9; 
+}
+#two{
+    color: #ff5959;
+    background-color: #ffeded;
+    border: 1px solid #ff5959;
 }
 
 .other-amount{
-    
+    color: #c2c2c2;
     border: none;
+    padding: 10px;
 }
 
 .donate-plan-details{
     display: flex;
     gap: 20px;
-    text-align: justify;
+    margin: 50px 300px;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    align-items: center;
 }
-
+.donate-color-one{
+    background-color: #eef5f5;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.donate-color-two{
+    background-color: #ffeeee;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.donate-color-three{
+    background-color: #fff4d5;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
 .blog{
     display: flex;
     gap: 20px;
@@ -89,9 +132,11 @@
 footer{
     text-align: center;
     background-color: #000000;
-    color: white;
+    color:#d8d8d8;
     padding: 30px;
 }
 .humble{
     color: #ff5959;
     font-family: 'Lobster Two', cursive;
+    padding-bottom: 20px;
+}
