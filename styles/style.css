@@ -57,3 +57,41 @@
     gap: 20px;
     text-align: justify;
 }
+
+.blog{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+.blog-pic{
+    width: 50%;
+    border-radius: 5px;
+}
+.email{
+    display: flex;
+    align-content: center;
+    background-color: #fff4d5;
+    padding: 70px;
+    margin: 50px 70px;
+}
+.enter-email{
+    color: #d0d0d0;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border: 0px;
+    padding: 0px 35px;
+    border-radius: 5px;
+    background: #d8d8d8;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 30px;
+}
+.humble{
+    color: #ff5959;
+    font-family: 'Lobster Two', cursive;
